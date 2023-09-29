@@ -18,6 +18,12 @@ public class App {
 
         System.out.println(person1.equals(person2));
 
+        PersonRecord person3 = new PersonRecord("Marlon", "Junior");
+        System.out.println(person3);
+        System.out.println(person3.age());
+
+
+
     }
 
 
